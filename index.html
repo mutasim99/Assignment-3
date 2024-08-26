@@ -22,6 +22,7 @@
                 clifford: '#da373d',
                 color_primary: '#ABEF5F',
                 color_secondary: 'rgba(171, 239, 95, 0.5)',
+                box_primary: '#E9E9E9',
               }
             }
           }
@@ -33,7 +34,7 @@
 <body>
     <header>
         <!-- navbar section styles -->
-        <section class="container mx-auto">
+        <section class="md:container mx-auto">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -59,7 +60,15 @@
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="w-[200px] bg-color_primary rounded-[30px] text-center py-2 text-lg font-bold ">Book Consult<i class="fa-solid fa-arrow-right mx-2 bg-black text-white rounded-[50%] -rotate-45"></i></a>
+                 <div class="flex">
+                  <div class="box-border bg-box_primary rounded-[50%] h-[40px] w-[40px] mx-1 flex items-center justify-center">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <div class="box-border bg-box_primary rounded-[50%] h-[40px] w-[40px] mx-2 flex items-center justify-center">
+                    <i class="fa-sharp-duotone fa-solid fa-cart-shopping"></i>
+                  </div>
+                 </div>
+                  <a class="bg-color_primary rounded-[30px] text-center px-4 py-2 text-lg font-bold ">Book Consult<i class="fa-solid fa-arrow-right mx-1 bg-black text-white rounded-[50%] -rotate-45"></i></a>
                   <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                     <i class="fa-solid fa-bars"></i>
                 </div>
