@@ -4,3 +4,8 @@
 .font-manrope{
     font-family: "Manrope", sans-serif;
 }
+.about{
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
